@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+	
+.header{
+	width: 100%;
+	height: 275px;
+	/* border: 1px solid red; */
+}
+li{
+	list-style: none;
+}
+
+.header1{
+	width: 100%;
+	height: 25px;
+	/* border: 1px solid red; */
+	
+}
+.head1>li{
+	width: 80px;
+	height: 25px;
+	/* border: 1px solid blue; */
+	float: left;
+	font-size: x-small;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.head2>li{
+	width: 80px;
+	height: 25px;
+	/* border: 1px solid blue; */
+	float: right;
+	font-size: x-small;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+}
+.header2{
+	width: 100%;
+	height: 100px;
+	/* border: 1px solid red; */
+}
+.header2>img{
+	float: left;
+	width: 100px;
+}
+#ip{
+	width: 400px;
+	height: 50px;
+	margin-left:350px ;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+#ip1{
+	width: 60px;
+	height: 50px;
+	
+	
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+}
+.header li:hover{
+	background-color: cornflowerblue;
+}
+.header3{
+	width: 100%;
+	height: 150px;
+	border: 1px solid red;
+}
+.middle{
+	border: 1px solid red;
+}
+.header3-1{
+	width: 100%;
+	height: 50px;
+	
+	
+}
+.header3-2{
+	width: 100px;
+	height: 50px;
+	background-color: gainsboro;
+	text-align: center;
+	line-height: 50px;
+	font-size: small;
+	float: left;
+}
+.header3-3 {
+	float: left;
+	line-height: 50px;
+	text-align: center;
+	
+	/* padding: 20px; */
+	
+}
+#list{
+	width: 1300px;
+	height: 3000px;
+/* 	border: 1px solid red; */
+	/* background-color: indianred; */
+}
+
+h2{
+	color: forestgreen;
+	font-style: italic;
+}
+	
+/* .row1 {
+	border: 1px solid red;
+	width: 100%;
+} */
+.row1>li{
+	width:400px ;
+	height:350px ;
+	/* border: 1px solid red; */
+	float: left;
+	margin: 10px;
+	background-color: antiquewhite;
+	
+}
+.row1 li:hover{
+	box-shadow: 4px 4px 5px #aaa;
+	transform:translate3d(0,-2px,0)
+}
+#list img{
+	width:250px ;
+	height: 250px;
+	margin-left: 75px;
+	margin-top: 25px;
+}
+#list p{
+	text-align: center;
+}
+#list h2>a{
+	color: forestgreen;
+}
